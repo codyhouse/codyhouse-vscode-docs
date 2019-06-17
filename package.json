@@ -1,0 +1,298 @@
+{
+	"name": "codyhouse-docs",
+	"displayName": "CodyHouse Docs",
+	"description": "CodyHouse Framework Docs",
+	"version": "0.0.1",
+	"publisher": "CodyHouse",
+	"engines": {
+		"vscode": "^1.35.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./extension.js",
+	"activationEvents": [
+		"onCommand:extension.codyhouseDocsGetStarted",
+		"onCommand:extension.codyhouseDocsFramework",
+		"onCommand:extension.codyhouseDocsAccessibility",
+		"onCommand:extension.codyhouseDocsBreakpoints",
+		"onCommand:extension.codyhouseDocsButtons",
+		"onCommand:extension.codyhouseDocsColors",
+		"onCommand:extension.codyhouseDocsColorsVariables",
+		"onCommand:extension.codyhouseDocsColorsMain",
+		"onCommand:extension.codyhouseDocsColorsFeedback",
+		"onCommand:extension.codyhouseDocsColorsContrast",
+		"onCommand:extension.codyhouseDocsColorsBlackWhite",
+		"onCommand:extension.codyhouseDocsColorsThemes",
+		"onCommand:extension.codyhouseDocsForms",
+		"onCommand:extension.codyhouseDocsGrid",
+		"onCommand:extension.codyhouseDocsGridContainer",
+		"onCommand:extension.codyhouseDocsGridMaxWidth",
+		"onCommand:extension.codyhouseDocsGridFlexSystem",
+		"onCommand:extension.codyhouseDocsGridGridSystem",
+		"onCommand:extension.codyhouseDocsIcons",
+		"onCommand:extension.codyhouseDocsMixins",
+		"onCommand:extension.codyhouseDocsMixinsColors",
+		"onCommand:extension.codyhouseDocsMixinsTypography",
+		"onCommand:extension.codyhouseDocsMixinsSpace",
+		"onCommand:extension.codyhouseDocsMixinsMisc",
+		"onCommand:extension.codyhouseDocsReset",
+		"onCommand:extension.codyhouseDocsSharedStyle",
+		"onCommand:extension.codyhouseDocsSpacing",
+		"onCommand:extension.codyhouseDocsTypography",
+		"onCommand:extension.codyhouseDocsTypographyFontFamily",
+		"onCommand:extension.codyhouseDocsTypographyTypeScale",
+		"onCommand:extension.codyhouseDocsTypographyTextComponent",
+		"onCommand:extension.codyhouseDocsTypographyVerticalSpacing",
+		"onCommand:extension.codyhouseDocsTypographyBlock",
+		"onCommand:extension.codyhouseDocsTypographyTextSize",
+		"onCommand:extension.codyhouseDocsTypographyLHCrop",
+		"onCommand:extension.codyhouseDocsTypographyUtilities",
+		"onCommand:extension.codyhouseDocsUtilities",
+		"onCommand:extension.codyhouseDocsUtilitiesFlex",
+		"onCommand:extension.codyhouseDocsUtilitiesMargin",
+		"onCommand:extension.codyhouseDocsUtilitiesPadding",
+		"onCommand:extension.codyhouseDocsUtilitiesTypography",
+		"onCommand:extension.codyhouseDocsUtilitiesColor",
+		"onCommand:extension.codyhouseDocsUtilitiesWidthHeight",
+		"onCommand:extension.codyhouseDocsUtilitiesMisc",
+		"onCommand:extension.codyhouseDocsVisibility",
+		"onCommand:extension.codyhouseDocsVisibilityDisplayHide",
+		"onCommand:extension.codyhouseDocsVisibilityVisibleHidden",
+		"onCommand:extension.codyhouseDocsZIndex",
+		"onCommand:extension.codyhouseDocsJsUtil"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.codyhouseDocsGetStarted",
+				"title": "CodyHouse Docs: Get Started"
+			},
+			{
+				"command": "extension.codyhouseDocsFramework",
+				"title": "CodyHouse Docs: Framework"
+			},
+			{
+				"command": "extension.codyhouseDocsAccessibility",
+				"title": "CodyHouse Docs: Accessibility"
+			},
+			{
+				"command": "extension.codyhouseDocsBreakpoints",
+				"title": "CodyHouse Docs: Breakpoints"
+			},
+			{
+				"command": "extension.codyhouseDocsButtons",
+				"title": "CodyHouse Docs: Buttons"
+			},
+			{
+				"command": "extension.codyhouseDocsColors",
+				"title": "CodyHouse Docs: Colors"
+			},
+			{
+				"command": "extension.codyhouseDocsColorsVariables",
+				"title": "CodyHouse Docs: Colors > Define color variables"
+			},
+			{
+				"command": "extension.codyhouseDocsColorsMain",
+				"title": "CodyHouse Docs: Colors > Main colors"
+			},
+			{
+				"command": "extension.codyhouseDocsColorsFeedback",
+				"title": "CodyHouse Docs: Colors > Feedback"
+			},
+			{
+				"command": "extension.codyhouseDocsColorsContrast",
+				"title": "CodyHouse Docs: Colors > Color contrasts"
+			},
+			{
+				"command": "extension.codyhouseDocsColorsBlackWhite",
+				"title": "CodyHouse Docs: Colors > Black and White"
+			},
+			{
+				"command": "extension.codyhouseDocsColorsThemes",
+				"title": "CodyHouse Docs: Colors > Themes"
+			},
+			{
+				"command": "extension.codyhouseDocsForms",
+				"title": "CodyHouse Docs: Forms"
+			},
+			{
+				"command": "extension.codyhouseDocsGrid",
+				"title": "CodyHouse Docs: Grid and Layout"
+			},
+			{
+				"command": "extension.codyhouseDocsGridContainer",
+				"title": "CodyHouse Docs: Grid and Layout > Container"
+			},
+			{
+				"command": "extension.codyhouseDocsGridMaxWidth",
+				"title": "CodyHouse Docs: Grid and Layout > Max-width"
+			},
+			{
+				"command": "extension.codyhouseDocsGridFlexSystem",
+				"title": "CodyHouse Docs: Grid and Layout > Flexbox grid system"
+			},
+			{
+				"command": "extension.codyhouseDocsGridGridSystem",
+				"title": "CodyHouse Docs: Grid and Layout > CSS Grid system"
+			},
+			{
+				"command": "extension.codyhouseDocsIcons",
+				"title": "CodyHouse Docs: Icons"
+			},
+			{
+				"command": "extension.codyhouseDocsMixins",
+				"title": "CodyHouse Docs: Mixins"
+			},
+			{
+				"command": "extension.codyhouseDocsMixinsColors",
+				"title": "CodyHouse Docs: Mixins > Color"
+			},
+			{
+				"command": "extension.codyhouseDocsMixinsTypography",
+				"title": "CodyHouse Docs: Mixins > Typography"
+			},
+			{
+				"command": "extension.codyhouseDocsMixinsSpace",
+				"title": "CodyHouse Docs: Mixins > Space unit"
+			},
+			{
+				"command": "extension.codyhouseDocsMixinsMisc",
+				"title": "CodyHouse Docs: Mixins > Misc"
+			},
+			{
+				"command": "extension.codyhouseDocsReset",
+				"title": "CodyHouse Docs: Reset"
+			},
+			{
+				"command": "extension.codyhouseDocsSharedStyle",
+				"title": "CodyHouse Docs: Shared Styles"
+			},
+			{
+				"command": "extension.codyhouseDocsSpacing",
+				"title": "CodyHouse Docs: Spacing"
+			},
+			{
+				"command": "extension.codyhouseDocsTypography",
+				"title": "CodyHouse Docs: Typograph"
+			},
+			{
+				"command": "extension.codyhouseDocsTypographyFontFamily",
+				"title": "CodyHouse Docs: Typograph > font-family"
+			},
+			{
+				"command": "extension.codyhouseDocsTypographyTypeScale",
+				"title": "CodyHouse Docs: Typograph > Type scale"
+			},
+			{
+				"command": "extension.codyhouseDocsTypographyTextComponent",
+				"title": "CodyHouse Docs: Typograph > .text-component"
+			},
+			{
+				"command": "extension.codyhouseDocsTypographyVerticalSpacing",
+				"title": "CodyHouse Docs: Typograph > Vertical spacing"
+			},
+			{
+				"command": "extension.codyhouseDocsTypographyBlock",
+				"title": "CodyHouse Docs: Typograph > .text-component__block"
+			},
+			{
+				"command": "extension.codyhouseDocsTypographyTextSize",
+				"title": "CodyHouse Docs: Typograph > Editing text size"
+			},
+			{
+				"command": "extension.codyhouseDocsTypographyLHCrop",
+				"title": "CodyHouse Docs: Typograph > line-height crop"
+			},
+			{
+				"command": "extension.codyhouseDocsTypographyUtilities",
+				"title": "CodyHouse Docs: Typograph > Utility classes"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilities",
+				"title": "CodyHouse Docs: Utilities"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesFlex",
+				"title": "CodyHouse Docs: Utilities > Flexbox"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesMargin",
+				"title": "CodyHouse Docs: Utilities > Margin"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesPadding",
+				"title": "CodyHouse Docs: Utilities > Padding"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesTypography",
+				"title": "CodyHouse Docs: Utilities > Typography"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesColor",
+				"title": "CodyHouse Docs: Utilities > Color"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesWidthHeight",
+				"title": "CodyHouse Docs: Utilities > Width and Height"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesMisc",
+				"title": "CodyHouse Docs: Utilities > Misc"
+			},
+			{
+				"command": "extension.codyhouseDocsVisibility",
+				"title": "CodyHouse Docs: Visibility"
+			},
+			{
+				"command": "extension.codyhouseDocsVisibilityDisplayHide",
+				"title": "CodyHouse Docs: Visibility > display/hide"
+			},
+			{
+				"command": "extension.codyhouseDocsVisibilityVisibleHidden",
+				"title": "CodyHouse Docs: Visibility > is-visible/is-hidden"
+			},
+			{
+				"command": "extension.codyhouseDocsZIndex",
+				"title": "CodyHouse Docs: z-index"
+			},
+			{
+				"command": "extension.codyhouseDocsJsUtil",
+				"title": "CodyHouse Docs: Utilities (JS)"
+			}
+		]
+	},
+	"icon": "logo.png",
+  "keywords": [
+    "codyhouse",
+		"docs",
+		"documentation",
+    "css",
+    "html",
+    "js",
+    "vscode",
+    "vscode-extension"
+  ],
+  "author": "CodyHouse <hello@codyhouse.co>",
+  "license": "MIT",
+  "homepage": "https://github.com/CodyHouse/codyhouse-vscode-docs/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/CodyHouse/codyhouse-vscode-docs/issues",
+    "email": "help@codyhouse.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodyHouse/codyhouse-vscode-docs.git"
+  },
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"eslint": "^5.13.0",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	}
+}
