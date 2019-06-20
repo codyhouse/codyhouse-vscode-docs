@@ -7,4 +7,4 @@ Navigate the [CodyHouse documentation](https://codyhouse.co/ds/get-started) dire
 ## Features
 Press `⇧⌘P` to bring up the Command Palette (`Ctrl+Shift+P` on Windows), then search for "CodyHouse Doc" and choose the topic you want to access on the website.
 
-<img src="https://raw.githubusercontent.com/CodyHouse/codyhouse-vscode-snippets/master/img/cd-vscode-docs-command-palette.gif" alt="CodyHouse Docs via Command Palette" width="750">
+<img src="https://raw.githubusercontent.com/CodyHouse/codyhouse-vscode-docs/master/img/cd-vscode-docs-command-palette.gif" alt="CodyHouse Docs via Command Palette" width="750">
