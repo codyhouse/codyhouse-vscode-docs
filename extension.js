@@ -181,6 +181,22 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#width-height'));
 	});
 	context.subscriptions.push(codyhouseDocsUtilitiesWidthHeight);
+	let codyhouseDocsUtilitiesBackground = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesBackground', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#background'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesBackground);
+	let codyhouseDocsUtilitiesBorders = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesBorders', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#borders'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesBorders);
+	let codyhouseDocsUtilitiesBorderRadius = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesBorderRadius', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#radius'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesBorderRadius);
+	let codyhouseDocsUtilitiesBoxShadow = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesBoxShadow', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#shadow'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesBoxShadow);
 	let codyhouseDocsUtilitiesMisc = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesMisc', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#misc'));
 	});

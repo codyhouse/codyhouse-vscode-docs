@@ -55,6 +55,10 @@
 		"onCommand:extension.codyhouseDocsUtilitiesTypography",
 		"onCommand:extension.codyhouseDocsUtilitiesColor",
 		"onCommand:extension.codyhouseDocsUtilitiesWidthHeight",
+		"onCommand:extension.codyhouseDocsUtilitiesBackground",
+		"onCommand:extension.codyhouseDocsUtilitiesBorders",
+		"onCommand:extension.codyhouseDocsUtilitiesBorderRadius",
+		"onCommand:extension.codyhouseDocsUtilitiesBoxShadow",
 		"onCommand:extension.codyhouseDocsUtilitiesMisc",
 		"onCommand:extension.codyhouseDocsVisibility",
 		"onCommand:extension.codyhouseDocsVisibilityDisplayHide",
@@ -235,6 +239,22 @@
 			{
 				"command": "extension.codyhouseDocsUtilitiesWidthHeight",
 				"title": "CodyHouse Docs: Utilities > Width and Height"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesBackground",
+				"title": "CodyHouse Docs: Utilities > Background"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesBorders",
+				"title": "CodyHouse Docs: Utilities > Borders"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesBorderRadius",
+				"title": "CodyHouse Docs: Utilities > Border Radius"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesBoxShadow",
+				"title": "CodyHouse Docs: Utilities > Box Shadow"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesMisc",
