@@ -51,6 +51,7 @@
 		"onCommand:extension.codyhouseDocsTypographyUtilities",
 		"onCommand:extension.codyhouseDocsUtilities",
 		"onCommand:extension.codyhouseDocsUtilitiesFlex",
+		"onCommand:extension.codyhouseDocsUtilitiesDisplay",
 		"onCommand:extension.codyhouseDocsUtilitiesMargin",
 		"onCommand:extension.codyhouseDocsUtilitiesPadding",
 		"onCommand:extension.codyhouseDocsUtilitiesTypography",
@@ -224,6 +225,10 @@
 			{
 				"command": "extension.codyhouseDocsUtilitiesFlex",
 				"title": "CodyHouse Docs: Utilities > Flexbox"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesDisplay",
+				"title": "CodyHouse Docs: Utilities > Display"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesMargin",

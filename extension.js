@@ -165,6 +165,10 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#flexbox'));
 	});
 	context.subscriptions.push(codyhouseDocsUtilitiesFlex);
+	let codyhouseDocsUtilitiesDisplay = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesDisplay', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#display'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesDisplay);
 	let codyhouseDocsUtilitiesMargin = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesMargin', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#margin'));
 	});
