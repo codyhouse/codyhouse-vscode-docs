@@ -24,6 +24,7 @@
 		"onCommand:extension.codyhouseDocsColorsContrast",
 		"onCommand:extension.codyhouseDocsColorsBlackWhite",
 		"onCommand:extension.codyhouseDocsColorsThemes",
+		"onCommand:extension.codyhouseDocsColorsFunctions",
 		"onCommand:extension.codyhouseDocsForms",
 		"onCommand:extension.codyhouseDocsGrid",
 		"onCommand:extension.codyhouseDocsGridContainer",
@@ -115,6 +116,10 @@
 			{
 				"command": "extension.codyhouseDocsColorsThemes",
 				"title": "CodyHouse Docs: Colors > Themes"
+			},
+			{
+				"command": "extension.codyhouseDocsColorsFunctions",
+				"title": "CodyHouse Docs: Colors > Functions"
 			},
 			{
 				"command": "extension.codyhouseDocsForms",

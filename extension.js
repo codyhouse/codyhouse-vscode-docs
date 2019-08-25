@@ -57,6 +57,10 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/colors#themes'));
 	});
 	context.subscriptions.push(codyhouseDocsColorsThemes);
+	let codyhouseDocsColorsFunctions = vscode.commands.registerCommand('extension.codyhouseDocsColorsFunctions', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/colors#functions'));
+	});
+	context.subscriptions.push(codyhouseDocsColorsFunctions);
 	let codyhouseDocsForms = vscode.commands.registerCommand('extension.codyhouseDocsForms', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/forms'));
 	});
