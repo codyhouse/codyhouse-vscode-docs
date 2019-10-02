@@ -177,6 +177,10 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#padding'));
 	});
 	context.subscriptions.push(codyhouseDocsUtilitiesPadding);
+	let codyhouseDocsUtilitiesVAlignment = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesVAlignment', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#vertical-alignment'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesVAlignment);
 	let codyhouseDocsUtilitiesTypography = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesTypography', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#typography'));
 	});
@@ -189,6 +193,10 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#width-height'));
 	});
 	context.subscriptions.push(codyhouseDocsUtilitiesWidthHeight);
+	let codyhouseDocsUtilitiesMaxWidth = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesMaxWidth', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#max-width'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesMaxWidth);
 	let codyhouseDocsUtilitiesBackground = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesBackground', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#background'));
 	});

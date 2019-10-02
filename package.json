@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -54,9 +54,11 @@
 		"onCommand:extension.codyhouseDocsUtilitiesDisplay",
 		"onCommand:extension.codyhouseDocsUtilitiesMargin",
 		"onCommand:extension.codyhouseDocsUtilitiesPadding",
+		"onCommand:extension.codyhouseDocsUtilitiesVAlignment",
 		"onCommand:extension.codyhouseDocsUtilitiesTypography",
 		"onCommand:extension.codyhouseDocsUtilitiesColor",
 		"onCommand:extension.codyhouseDocsUtilitiesWidthHeight",
+		"onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesBackground",
 		"onCommand:extension.codyhouseDocsUtilitiesBorders",
 		"onCommand:extension.codyhouseDocsUtilitiesBorderRadius",
@@ -239,6 +241,10 @@
 				"title": "CodyHouse Docs: Utilities > Padding"
 			},
 			{
+				"command": "extension.codyhouseDocsUtilitiesVAlignment",
+				"title": "CodyHouse Docs: Utilities > Vertical Alignment"
+			},
+			{
 				"command": "extension.codyhouseDocsUtilitiesTypography",
 				"title": "CodyHouse Docs: Utilities > Typography"
 			},
@@ -249,6 +255,10 @@
 			{
 				"command": "extension.codyhouseDocsUtilitiesWidthHeight",
 				"title": "CodyHouse Docs: Utilities > Width and Height"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesMaxWidth",
+				"title": "CodyHouse Docs: Utilities > Max-width"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesBackground",
