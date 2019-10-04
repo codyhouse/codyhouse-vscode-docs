@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -59,6 +59,7 @@
 		"onCommand:extension.codyhouseDocsUtilitiesColor",
 		"onCommand:extension.codyhouseDocsUtilitiesWidthHeight",
 		"onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
+		"onCommand:extension.codyhouseDocsUtilitiesMinWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesBackground",
 		"onCommand:extension.codyhouseDocsUtilitiesBorders",
 		"onCommand:extension.codyhouseDocsUtilitiesBorderRadius",
@@ -259,7 +260,11 @@
 			{
 				"command": "extension.codyhouseDocsUtilitiesMaxWidth",
 				"title": "CodyHouse Docs: Utilities > Max-width"
-			},
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesMinWidth",
+				"title": "CodyHouse Docs: Utilities > Min-width"
+      },
 			{
 				"command": "extension.codyhouseDocsUtilitiesBackground",
 				"title": "CodyHouse Docs: Utilities > Background"
