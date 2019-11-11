@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -61,6 +61,8 @@
 		"onCommand:extension.codyhouseDocsUtilitiesHeight",
 		"onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesMinWidth",
+		"onCommand:extension.codyhouseDocsUtilitiesPosition",
+		"onCommand:extension.codyhouseDocsUtilitiesOverflow",
 		"onCommand:extension.codyhouseDocsUtilitiesBackground",
 		"onCommand:extension.codyhouseDocsUtilitiesBorders",
 		"onCommand:extension.codyhouseDocsUtilitiesBorderRadius",
@@ -270,6 +272,14 @@
 			{
 				"command": "extension.codyhouseDocsUtilitiesMinWidth",
 				"title": "CodyHouse Docs: Utilities > Min-width"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesPosition",
+				"title": "CodyHouse Docs: Utilities > Position"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesOverflow",
+				"title": "CodyHouse Docs: Utilities > Overflow"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesBackground",
@@ -293,7 +303,7 @@
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesMisc",
-				"title": "CodyHouse Docs: Utilities > Clearfix"
+				"title": "CodyHouse Docs: Utilities > Float"
 			},
 			{
 				"command": "extension.codyhouseDocsVisibility",
