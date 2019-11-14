@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.0.8",
+	"version": "0.1.0",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -68,7 +68,8 @@
 		"onCommand:extension.codyhouseDocsUtilitiesBorderRadius",
 		"onCommand:extension.codyhouseDocsUtilitiesBoxShadow",
 		"onCommand:extension.codyhouseDocsUtilitiesMediaWrapper",
-		"onCommand:extension.codyhouseDocsUtilitiesMisc",
+		"onCommand:extension.codyhouseDocsUtilitiesFloat",
+		"onCommand:extension.codyhouseDocsUtilitiesObjectFit",
 		"onCommand:extension.codyhouseDocsVisibility",
 		"onCommand:extension.codyhouseDocsVisibilityDisplayHide",
 		"onCommand:extension.codyhouseDocsVisibilityVisibleHidden",
@@ -191,39 +192,39 @@
 			},
 			{
 				"command": "extension.codyhouseDocsTypography",
-				"title": "CodyHouse Docs: Typograph"
+				"title": "CodyHouse Docs: Typography"
 			},
 			{
 				"command": "extension.codyhouseDocsTypographyFontFamily",
-				"title": "CodyHouse Docs: Typograph > font-family"
+				"title": "CodyHouse Docs: Typography > font-family"
 			},
 			{
 				"command": "extension.codyhouseDocsTypographyTypeScale",
-				"title": "CodyHouse Docs: Typograph > Type scale"
+				"title": "CodyHouse Docs: Typography > Type scale"
 			},
 			{
 				"command": "extension.codyhouseDocsTypographyTextComponent",
-				"title": "CodyHouse Docs: Typograph > .text-component"
+				"title": "CodyHouse Docs: Typography > .text-component"
 			},
 			{
 				"command": "extension.codyhouseDocsTypographyVerticalSpacing",
-				"title": "CodyHouse Docs: Typograph > Vertical spacing"
+				"title": "CodyHouse Docs: Typography > Vertical spacing"
 			},
 			{
 				"command": "extension.codyhouseDocsTypographyBlock",
-				"title": "CodyHouse Docs: Typograph > .text-component__block"
+				"title": "CodyHouse Docs: Typography > .text-component__block"
 			},
 			{
 				"command": "extension.codyhouseDocsTypographyTextSize",
-				"title": "CodyHouse Docs: Typograph > Editing text size"
+				"title": "CodyHouse Docs: Typography > Editing text size"
 			},
 			{
 				"command": "extension.codyhouseDocsTypographyLHCrop",
-				"title": "CodyHouse Docs: Typograph > line-height crop"
+				"title": "CodyHouse Docs: Typography > line-height crop"
 			},
 			{
 				"command": "extension.codyhouseDocsTypographyUtilities",
-				"title": "CodyHouse Docs: Typograph > Utility classes"
+				"title": "CodyHouse Docs: Typography > Utility classes"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilities",
@@ -302,8 +303,12 @@
 				"title": "CodyHouse Docs: Utilities > Media Wrapper"
 			},
 			{
-				"command": "extension.codyhouseDocsUtilitiesMisc",
+				"command": "extension.codyhouseDocsUtilitiesFloat",
 				"title": "CodyHouse Docs: Utilities > Float"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesObjectFit",
+				"title": "CodyHouse Docs: Utilities > Object Fit"
 			},
 			{
 				"command": "extension.codyhouseDocsVisibility",

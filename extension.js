@@ -233,10 +233,14 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#media-wrapper'));
 	});
 	context.subscriptions.push(codyhouseDocsUtilitiesMediaWrapper);
-	let codyhouseDocsUtilitiesMisc = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesMisc', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#misc'));
+	let codyhouseDocsUtilitiesFloat = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesFloat', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#float'));
 	});
-	context.subscriptions.push(codyhouseDocsUtilitiesMisc);
+	context.subscriptions.push(codyhouseDocsUtilitiesFloat);
+	let codyhouseDocsUtilitiesObjectFit = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesObjectFit', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#object-fit'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesObjectFit);
 	let codyhouseDocsVisibility = vscode.commands.registerCommand('extension.codyhouseDocsVisibility', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/visibility'));
 	});
