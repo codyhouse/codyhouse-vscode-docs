@@ -2,10 +2,10 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"publisher": "CodyHouse",
 	"engines": {
-		"vscode": "^1.36.0"
+		"vscode": "^1.35.0"
 	},
 	"categories": [
 		"Other"
