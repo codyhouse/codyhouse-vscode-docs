@@ -77,14 +77,22 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/grid-layout#max-width'));
 	});
 	context.subscriptions.push(codyhouseDocsGridMaxWidth);
-	let codyhouseDocsGridFlexSystem = vscode.commands.registerCommand('extension.codyhouseDocsGridFlexSystem', function () {
+	let codyhouseDocsGridSystem = vscode.commands.registerCommand('extension.codyhouseDocsGridSystem', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/grid-layout#flex-grid-system'));
 	});
-	context.subscriptions.push(codyhouseDocsGridFlexSystem);
-	let codyhouseDocsGridGridSystem = vscode.commands.registerCommand('extension.codyhouseDocsGridGridSystem', function () {
+	context.subscriptions.push(codyhouseDocsGridSystem);
+	let codyhouseDocsGridGap = vscode.commands.registerCommand('extension.codyhouseDocsGridGap', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/grid-layout#gap'));
+	});
+	context.subscriptions.push(codyhouseDocsGridGap);
+	let codyhouseDocsGridOffset = vscode.commands.registerCommand('extension.codyhouseDocsGridOffset', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/grid-layout#offset'));
+	});
+	context.subscriptions.push(codyhouseDocsGridOffset);
+	let codyhouseDocsGridGridFallback = vscode.commands.registerCommand('extension.codyhouseDocsGridGridFallback', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/grid-layout#grid-system'));
 	});
-	context.subscriptions.push(codyhouseDocsGridGridSystem);
+	context.subscriptions.push(codyhouseDocsGridGridFallback);
 	let codyhouseDocsIcons = vscode.commands.registerCommand('extension.codyhouseDocsIcons', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/icons'));
 	});

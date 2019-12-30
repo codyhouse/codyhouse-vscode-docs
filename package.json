@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -29,8 +29,10 @@
 		"onCommand:extension.codyhouseDocsGrid",
 		"onCommand:extension.codyhouseDocsGridContainer",
 		"onCommand:extension.codyhouseDocsGridMaxWidth",
-		"onCommand:extension.codyhouseDocsGridFlexSystem",
-		"onCommand:extension.codyhouseDocsGridGridSystem",
+		"onCommand:extension.codyhouseDocsGridSystem",
+		"onCommand:extension.codyhouseDocsGridGap",
+		"onCommand:extension.codyhouseDocsGridOffset",
+		"onCommand:extension.codyhouseDocsGridGridFallback",
 		"onCommand:extension.codyhouseDocsIcons",
 		"onCommand:extension.codyhouseDocsMixins",
 		"onCommand:extension.codyhouseDocsMixinsColors",
@@ -147,12 +149,20 @@
 				"title": "CodyHouse Docs: Grid and Layout > Max-width"
 			},
 			{
-				"command": "extension.codyhouseDocsGridFlexSystem",
-				"title": "CodyHouse Docs: Grid and Layout > Flexbox grid system"
+				"command": "extension.codyhouseDocsGridSystem",
+				"title": "CodyHouse Docs: Grid and Layout > Grid System"
 			},
 			{
-				"command": "extension.codyhouseDocsGridGridSystem",
-				"title": "CodyHouse Docs: Grid and Layout > CSS Grid system"
+				"command": "extension.codyhouseDocsGridGap",
+				"title": "CodyHouse Docs: Grid and Layout > Grid Gap"
+			},
+			{
+				"command": "extension.codyhouseDocsGridOffset",
+				"title": "CodyHouse Docs: Grid and Layout > Grid Offset"
+			},
+			{
+				"command": "extension.codyhouseDocsGridGridFallback",
+				"title": "CodyHouse Docs: Grid and Layout > CSS Grid fallback"
 			},
 			{
 				"command": "extension.codyhouseDocsIcons",
