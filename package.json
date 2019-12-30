@@ -53,18 +53,24 @@
 		"onCommand:extension.codyhouseDocsTypographyUtilities",
 		"onCommand:extension.codyhouseDocsUtilities",
 		"onCommand:extension.codyhouseDocsUtilitiesFlex",
+		"onCommand:extension.codyhouseDocsUtilitiesJustify",
+		"onCommand:extension.codyhouseDocsUtilitiesAlign",
+		"onCommand:extension.codyhouseDocsUtilitiesOrder",
 		"onCommand:extension.codyhouseDocsUtilitiesDisplay",
 		"onCommand:extension.codyhouseDocsUtilitiesMargin",
 		"onCommand:extension.codyhouseDocsUtilitiesPadding",
 		"onCommand:extension.codyhouseDocsUtilitiesVAlignment",
 		"onCommand:extension.codyhouseDocsUtilitiesTypography",
+		"onCommand:extension.codyhouseDocsUtilitiesWhiteSpace",
 		"onCommand:extension.codyhouseDocsUtilitiesColor",
 		"onCommand:extension.codyhouseDocsUtilitiesWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesHeight",
 		"onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesMinWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesPosition",
+		"onCommand:extension.codyhouseDocsUtilitiesZIndex",
 		"onCommand:extension.codyhouseDocsUtilitiesOverflow",
+		"onCommand:extension.codyhouseDocsUtilitiesOpacity",
 		"onCommand:extension.codyhouseDocsUtilitiesBackground",
 		"onCommand:extension.codyhouseDocsUtilitiesBorders",
 		"onCommand:extension.codyhouseDocsUtilitiesBorderRadius",
@@ -245,6 +251,18 @@
 				"title": "CodyHouse Docs: Utilities > Flexbox"
 			},
 			{
+				"command": "extension.codyhouseDocsUtilitiesJustify",
+				"title": "CodyHouse Docs: Utilities > Justify Content"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesAlign",
+				"title": "CodyHouse Docs: Utilities > Align Items"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesOrder",
+				"title": "CodyHouse Docs: Utilities > Order"
+			},
+			{
 				"command": "extension.codyhouseDocsUtilitiesDisplay",
 				"title": "CodyHouse Docs: Utilities > Display"
 			},
@@ -258,11 +276,15 @@
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesVAlignment",
-				"title": "CodyHouse Docs: Utilities > Vertical Alignment"
+				"title": "CodyHouse Docs: Utilities > Vertical Align"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesTypography",
 				"title": "CodyHouse Docs: Utilities > Typography"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesWhiteSpace",
+				"title": "CodyHouse Docs: Utilities > White Space"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesColor",
@@ -289,8 +311,16 @@
 				"title": "CodyHouse Docs: Utilities > Position"
 			},
 			{
+				"command": "extension.codyhouseDocsUtilitiesZIndex",
+				"title": "CodyHouse Docs: Utilities > Z-Index"
+			},
+			{
 				"command": "extension.codyhouseDocsUtilitiesOverflow",
 				"title": "CodyHouse Docs: Utilities > Overflow"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesOpacity",
+				"title": "CodyHouse Docs: Utilities > Opacity"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesBackground",
