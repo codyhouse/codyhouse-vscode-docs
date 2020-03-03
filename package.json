@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -62,11 +62,13 @@
 		"onCommand:extension.codyhouseDocsUtilitiesVAlignment",
 		"onCommand:extension.codyhouseDocsUtilitiesTypography",
 		"onCommand:extension.codyhouseDocsUtilitiesWhiteSpace",
+		"onCommand:extension.codyhouseDocsUtilitiesCursor",
 		"onCommand:extension.codyhouseDocsUtilitiesColor",
 		"onCommand:extension.codyhouseDocsUtilitiesWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesHeight",
 		"onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesMinWidth",
+		"onCommand:extension.codyhouseDocsUtilitiesMinHeight",
 		"onCommand:extension.codyhouseDocsUtilitiesPosition",
 		"onCommand:extension.codyhouseDocsUtilitiesZIndex",
 		"onCommand:extension.codyhouseDocsUtilitiesOverflow",
@@ -287,6 +289,10 @@
 				"title": "CodyHouse Docs: Utilities > White Space"
 			},
 			{
+				"command": "extension.codyhouseDocsUtilitiesCursor",
+				"title": "CodyHouse Docs: Utilities > Cursor"
+			},
+			{
 				"command": "extension.codyhouseDocsUtilitiesColor",
 				"title": "CodyHouse Docs: Utilities > Color"
 			},
@@ -300,11 +306,15 @@
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesMaxWidth",
-				"title": "CodyHouse Docs: Utilities > Max-width"
+				"title": "CodyHouse Docs: Utilities > Max-Width"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMinWidth",
-				"title": "CodyHouse Docs: Utilities > Min-width"
+				"title": "CodyHouse Docs: Utilities > Min-Width"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesMinHeight",
+				"title": "CodyHouse Docs: Utilities > Min-Height"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesPosition",
@@ -364,7 +374,7 @@
 			},
 			{
 				"command": "extension.codyhouseDocsZIndex",
-				"title": "CodyHouse Docs: z-index"
+				"title": "CodyHouse Docs: Z-Index"
 			},
 			{
 				"command": "extension.codyhouseDocsJsUtil",
