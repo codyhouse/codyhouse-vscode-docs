@@ -225,6 +225,10 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#height'));
 	});
 	context.subscriptions.push(codyhouseDocsUtilitiesHeight);
+	let codyhouseDocsUtilitiesMaxHeight = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesMaxHeight', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#max-height'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesMaxHeight);
 	let codyhouseDocsUtilitiesMaxWidth = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesMaxWidth', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#max-width'));
 	});
@@ -281,6 +285,14 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#object-fit'));
 	});
 	context.subscriptions.push(codyhouseDocsUtilitiesObjectFit);
+	let codyhouseDocsUtilitiesPointerEvents = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesPointerEvents', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#pointer-events'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesPointerEvents);
+	let codyhouseDocsUtilitiesUserSelect = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesUserSelect', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#user-select'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesUserSelect);
 	let codyhouseDocsVisibility = vscode.commands.registerCommand('extension.codyhouseDocsVisibility', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/visibility'));
 	});

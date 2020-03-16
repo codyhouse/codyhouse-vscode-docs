@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.2.2",
+	"version": "0.3.0",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -66,6 +66,7 @@
 		"onCommand:extension.codyhouseDocsUtilitiesColor",
 		"onCommand:extension.codyhouseDocsUtilitiesWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesHeight",
+		"onCommand:extension.codyhouseDocsUtilitiesMaxHeight",
 		"onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesMinWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesMinHeight",
@@ -80,6 +81,8 @@
 		"onCommand:extension.codyhouseDocsUtilitiesMediaWrapper",
 		"onCommand:extension.codyhouseDocsUtilitiesFloat",
 		"onCommand:extension.codyhouseDocsUtilitiesObjectFit",
+		"onCommand:extension.codyhouseDocsUtilitiesPointerEvents",
+		"onCommand:extension.codyhouseDocsUtilitiesUserSelect",
 		"onCommand:extension.codyhouseDocsVisibility",
 		"onCommand:extension.codyhouseDocsVisibilityDisplayHide",
 		"onCommand:extension.codyhouseDocsVisibilityVisibleHidden",
@@ -305,6 +308,10 @@
 				"title": "CodyHouse Docs: Utilities > Height"
 			},
 			{
+				"command": "extension.codyhouseDocsUtilitiesMaxHeight",
+				"title": "CodyHouse Docs: Utilities > Max-Height"
+      },
+			{
 				"command": "extension.codyhouseDocsUtilitiesMaxWidth",
 				"title": "CodyHouse Docs: Utilities > Max-Width"
       },
@@ -359,6 +366,14 @@
 			{
 				"command": "extension.codyhouseDocsUtilitiesObjectFit",
 				"title": "CodyHouse Docs: Utilities > Object Fit"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesPointerEvents",
+				"title": "CodyHouse Docs: Utilities > Pointer Events"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesUserSelect",
+				"title": "CodyHouse Docs: Utilities > User Select"
 			},
 			{
 				"command": "extension.codyhouseDocsVisibility",
