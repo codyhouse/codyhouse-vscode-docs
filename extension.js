@@ -257,6 +257,10 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#opacity'));
 	});
 	context.subscriptions.push(codyhouseDocsUtilitiesOpacity);
+	let codyhouseDocsUtilitiesBackdrop = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesBackdrop', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#backdrop-filter'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesBackdrop);
 	let codyhouseDocsUtilitiesBackground = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesBackground', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#background'));
 	});

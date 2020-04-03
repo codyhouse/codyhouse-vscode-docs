@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -74,6 +74,7 @@
 		"onCommand:extension.codyhouseDocsUtilitiesZIndex",
 		"onCommand:extension.codyhouseDocsUtilitiesOverflow",
 		"onCommand:extension.codyhouseDocsUtilitiesOpacity",
+		"onCommand:extension.codyhouseDocsUtilitiesBackdrop",
 		"onCommand:extension.codyhouseDocsUtilitiesBackground",
 		"onCommand:extension.codyhouseDocsUtilitiesBorders",
 		"onCommand:extension.codyhouseDocsUtilitiesBorderRadius",
@@ -339,6 +340,10 @@
 				"command": "extension.codyhouseDocsUtilitiesOpacity",
 				"title": "CodyHouse Docs: Utilities > Opacity"
       },
+			{
+				"command": "extension.codyhouseDocsUtilitiesBackdrop",
+				"title": "CodyHouse Docs: Utilities > Backdrop Filter"
+			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesBackground",
 				"title": "CodyHouse Docs: Utilities > Background"
