@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.3.1",
+	"version": "0.3.2",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -70,6 +70,7 @@
 		"onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesMinWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesMinHeight",
+		"onCommand:extension.codyhouseDocsUtilitiesMixBlendMode",
 		"onCommand:extension.codyhouseDocsUtilitiesPosition",
 		"onCommand:extension.codyhouseDocsUtilitiesZIndex",
 		"onCommand:extension.codyhouseDocsUtilitiesOverflow",
@@ -84,6 +85,7 @@
 		"onCommand:extension.codyhouseDocsUtilitiesObjectFit",
 		"onCommand:extension.codyhouseDocsUtilitiesPointerEvents",
 		"onCommand:extension.codyhouseDocsUtilitiesUserSelect",
+		"onCommand:extension.codyhouseDocsUtilitiesTransform",
 		"onCommand:extension.codyhouseDocsVisibility",
 		"onCommand:extension.codyhouseDocsVisibilityDisplayHide",
 		"onCommand:extension.codyhouseDocsVisibilityVisibleHidden",
@@ -325,6 +327,10 @@
 				"title": "CodyHouse Docs: Utilities > Min-Height"
 			},
 			{
+				"command": "extension.codyhouseDocsUtilitiesMixBlendMode",
+				"title": "CodyHouse Docs: Utilities > Min-Blend-Mode"
+			},
+			{
 				"command": "extension.codyhouseDocsUtilitiesPosition",
 				"title": "CodyHouse Docs: Utilities > Position"
 			},
@@ -379,6 +385,10 @@
 			{
 				"command": "extension.codyhouseDocsUtilitiesUserSelect",
 				"title": "CodyHouse Docs: Utilities > User Select"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesTransform",
+				"title": "CodyHouse Docs: Utilities > Transform"
 			},
 			{
 				"command": "extension.codyhouseDocsVisibility",
