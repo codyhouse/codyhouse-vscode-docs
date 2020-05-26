@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.3.2",
+	"version": "0.3.3",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -61,6 +61,17 @@
 		"onCommand:extension.codyhouseDocsUtilitiesPadding",
 		"onCommand:extension.codyhouseDocsUtilitiesVAlignment",
 		"onCommand:extension.codyhouseDocsUtilitiesTypography",
+		"onCommand:extension.codyhouseDocsUtilitiesFontSize",
+		"onCommand:extension.codyhouseDocsUtilitiesFontWeight",
+		"onCommand:extension.codyhouseDocsUtilitiesFontFamily",
+		"onCommand:extension.codyhouseDocsUtilitiesFontStyle",
+		"onCommand:extension.codyhouseDocsUtilitiesTextAlign",
+		"onCommand:extension.codyhouseDocsUtilitiesTextTransform",
+		"onCommand:extension.codyhouseDocsUtilitiesLetterSpacing",
+		"onCommand:extension.codyhouseDocsUtilitiesTextDecoration",
+		"onCommand:extension.codyhouseDocsUtilitiesLineHeight",
+		"onCommand:extension.codyhouseDocsUtilitiesVerticalSpacing",
+		"onCommand:extension.codyhouseDocsUtilitiesTypographyMisc",
 		"onCommand:extension.codyhouseDocsUtilitiesWhiteSpace",
 		"onCommand:extension.codyhouseDocsUtilitiesCursor",
 		"onCommand:extension.codyhouseDocsUtilitiesColor",
@@ -289,6 +300,50 @@
 			{
 				"command": "extension.codyhouseDocsUtilitiesTypography",
 				"title": "CodyHouse Docs: Utilities > Typography"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesFontSize",
+				"title": "CodyHouse Docs: Utilities > Font size"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesFontWeight",
+				"title": "CodyHouse Docs: Utilities > Font weight"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesFontFamily",
+				"title": "CodyHouse Docs: Utilities > Font family"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesFontStyle",
+				"title": "CodyHouse Docs: Utilities > Font style"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesTextAlign",
+				"title": "CodyHouse Docs: Utilities > Text align"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesTextTransform",
+				"title": "CodyHouse Docs: Utilities > Text Transform"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesLetterSpacing",
+				"title": "CodyHouse Docs: Utilities > Letter Spacing"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesTextDecoration",
+				"title": "CodyHouse Docs: Utilities > Text Decoration"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesLineHeight",
+				"title": "CodyHouse Docs: Utilities > Line Height"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesVerticalSpacing",
+				"title": "CodyHouse Docs: Utilities > Vertical Spacing"
+			},
+			{
+				"command": "extension.codyhouseDocsUtilitiesTypographyMisc",
+				"title": "CodyHouse Docs: Utilities > Typography Misc"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesWhiteSpace",

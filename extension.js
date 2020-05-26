@@ -205,6 +205,50 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#typography'));
 	});
 	context.subscriptions.push(codyhouseDocsUtilitiesTypography);
+	let codyhouseDocsUtilitiesFontSize = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesFontSize', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#font-size'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesFontSize);
+	let codyhouseDocsUtilitiesFontWeight = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesFontWeight', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#font-weight'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesFontWeight);
+	let codyhouseDocsUtilitiesFontFamily = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesFontFamily', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#font-family'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesFontFamily);
+	let codyhouseDocsUtilitiesFontStyle = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesFontStyle', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#font-style'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesFontStyle);
+	let codyhouseDocsUtilitiesTextAlign = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesTextAlign', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#text-align'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesTextAlign);
+	let codyhouseDocsUtilitiesTextTransform = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesTextTransform', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#text-transform'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesTextTransform);
+	let codyhouseDocsUtilitiesLetterSpacing = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesLetterSpacing', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#letter-spacing'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesLetterSpacing);
+	let codyhouseDocsUtilitiesTextDecoration = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesTextDecoration', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#text-decoration'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesTextDecoration);
+	let codyhouseDocsUtilitiesLineHeight = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesLineHeight', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#line-height'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesLineHeight);
+	let codyhouseDocsUtilitiesVerticalSpacing = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesVerticalSpacing', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#v-space'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesVerticalSpacing);
+	let codyhouseDocsUtilitiesTypographyMisc = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesTypographyMisc', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#misc'));
+	});
+	context.subscriptions.push(codyhouseDocsUtilitiesTypographyMisc);
 	let codyhouseDocsUtilitiesWhiteSpace = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesWhiteSpace', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/utilities#white-space'));
 	});
