@@ -149,14 +149,6 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/typography#vertical-spacing'));
 	});
 	context.subscriptions.push(codyhouseDocsTypographyVerticalSpacing);
-	let codyhouseDocsTypographyBlock = vscode.commands.registerCommand('extension.codyhouseDocsTypographyBlock', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/typography#block'));
-	});
-	context.subscriptions.push(codyhouseDocsTypographyBlock);
-	let codyhouseDocsTypographyTextSize = vscode.commands.registerCommand('extension.codyhouseDocsTypographyTextSize', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/typography#text-size'));
-	});
-	context.subscriptions.push(codyhouseDocsTypographyTextSize);
 	let codyhouseDocsTypographyLHCrop = vscode.commands.registerCommand('extension.codyhouseDocsTypographyLHCrop', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/typography#lh-crop'));
 	});

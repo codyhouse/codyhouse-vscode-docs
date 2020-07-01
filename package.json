@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.3.3",
+	"version": "0.3.4",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -47,8 +47,6 @@
 		"onCommand:extension.codyhouseDocsTypographyTypeScale",
 		"onCommand:extension.codyhouseDocsTypographyTextComponent",
 		"onCommand:extension.codyhouseDocsTypographyVerticalSpacing",
-		"onCommand:extension.codyhouseDocsTypographyBlock",
-		"onCommand:extension.codyhouseDocsTypographyTextSize",
 		"onCommand:extension.codyhouseDocsTypographyLHCrop",
 		"onCommand:extension.codyhouseDocsTypographyUtilities",
 		"onCommand:extension.codyhouseDocsUtilities",
@@ -244,14 +242,6 @@
 			{
 				"command": "extension.codyhouseDocsTypographyVerticalSpacing",
 				"title": "CodyHouse Docs: Typography > Vertical spacing"
-			},
-			{
-				"command": "extension.codyhouseDocsTypographyBlock",
-				"title": "CodyHouse Docs: Typography > .text-component__block"
-			},
-			{
-				"command": "extension.codyhouseDocsTypographyTextSize",
-				"title": "CodyHouse Docs: Typography > Editing text size"
 			},
 			{
 				"command": "extension.codyhouseDocsTypographyLHCrop",
