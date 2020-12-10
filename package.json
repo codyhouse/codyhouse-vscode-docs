@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.3.5",
+	"version": "0.3.6",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -23,61 +23,61 @@
 		"onCommand:extension.codyhouseDocsIcons",
 		"onCommand:extension.codyhouseDocsMixins",
 		"onCommand:extension.codyhouseDocsReset",
-		"onCommand:extension.codyhouseDocsSharedStyle",
+		"onCommand:extension.codyhouseDocsSharedStyles",
 		"onCommand:extension.codyhouseDocsSpacing",
 		"onCommand:extension.codyhouseDocsTypography",
 		"onCommand:extension.codyhouseDocsUtilities",
-		"onCommand:extension.codyhouseDocsUtilitiesFlex",
-		"onCommand:extension.codyhouseDocsUtilitiesJustify",
-		"onCommand:extension.codyhouseDocsUtilitiesAlign",
-		"onCommand:extension.codyhouseDocsUtilitiesOrder",
-		"onCommand:extension.codyhouseDocsUtilitiesDisplay",
-		"onCommand:extension.codyhouseDocsUtilitiesMargin",
-		"onCommand:extension.codyhouseDocsUtilitiesPadding",
-		"onCommand:extension.codyhouseDocsUtilitiesVAlignment",
-		"onCommand:extension.codyhouseDocsUtilitiesTypography",
-		"onCommand:extension.codyhouseDocsUtilitiesFontSize",
-		"onCommand:extension.codyhouseDocsUtilitiesFontWeight",
-		"onCommand:extension.codyhouseDocsUtilitiesFontFamily",
-		"onCommand:extension.codyhouseDocsUtilitiesFontStyle",
-		"onCommand:extension.codyhouseDocsUtilitiesTextAlign",
-		"onCommand:extension.codyhouseDocsUtilitiesTextTransform",
-		"onCommand:extension.codyhouseDocsUtilitiesLetterSpacing",
-		"onCommand:extension.codyhouseDocsUtilitiesTextDecoration",
-		"onCommand:extension.codyhouseDocsUtilitiesLineHeight",
-		"onCommand:extension.codyhouseDocsUtilitiesVerticalSpacing",
-		"onCommand:extension.codyhouseDocsUtilitiesTypographyMisc",
-		"onCommand:extension.codyhouseDocsUtilitiesWhiteSpace",
+		"onCommand:extension.codyhouseDocsUtilitiesAlignItems",
+    "onCommand:extension.codyhouseDocsUtilitiesAspectRatio",
+    "onCommand:extension.codyhouseDocsUtilitiesBackdropFilter",
+    "onCommand:extension.codyhouseDocsUtilitiesBackground",
+    "onCommand:extension.codyhouseDocsUtilitiesBorder",
+    "onCommand:extension.codyhouseDocsUtilitiesBorderRadius",
+    "onCommand:extension.codyhouseDocsUtilitiesBoxShadow",
+    "onCommand:extension.codyhouseDocsUtilitiesColor",
 		"onCommand:extension.codyhouseDocsUtilitiesCursor",
-		"onCommand:extension.codyhouseDocsUtilitiesColor",
-		"onCommand:extension.codyhouseDocsUtilitiesWidth",
+		"onCommand:extension.codyhouseDocsUtilitiesDisplay",
+    "onCommand:extension.codyhouseDocsUtilitiesFlexbox",
+    "onCommand:extension.codyhouseDocsUtilitiesFloat",
+		"onCommand:extension.codyhouseDocsUtilitiesFontFamily",
+		"onCommand:extension.codyhouseDocsUtilitiesFontSize",
+		"onCommand:extension.codyhouseDocsUtilitiesFontStyle",
+		"onCommand:extension.codyhouseDocsUtilitiesFontWeight",
 		"onCommand:extension.codyhouseDocsUtilitiesHeight",
+		"onCommand:extension.codyhouseDocsUtilitiesJustifyContent",
+		"onCommand:extension.codyhouseDocsUtilitiesLetterSpacing",
+		"onCommand:extension.codyhouseDocsUtilitiesLineHeight",
+		"onCommand:extension.codyhouseDocsUtilitiesMargin",
 		"onCommand:extension.codyhouseDocsUtilitiesMaxHeight",
-		"onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
-		"onCommand:extension.codyhouseDocsUtilitiesMinWidth",
-		"onCommand:extension.codyhouseDocsUtilitiesMinHeight",
-		"onCommand:extension.codyhouseDocsUtilitiesMixBlendMode",
-		"onCommand:extension.codyhouseDocsUtilitiesPosition",
-		"onCommand:extension.codyhouseDocsUtilitiesZIndex",
-		"onCommand:extension.codyhouseDocsUtilitiesOverflow",
-		"onCommand:extension.codyhouseDocsUtilitiesOpacity",
-		"onCommand:extension.codyhouseDocsUtilitiesBackdrop",
-		"onCommand:extension.codyhouseDocsUtilitiesBackground",
-		"onCommand:extension.codyhouseDocsUtilitiesBorders",
-		"onCommand:extension.codyhouseDocsUtilitiesBorderRadius",
-		"onCommand:extension.codyhouseDocsUtilitiesBoxShadow",
+    "onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesMediaWrapper",
-		"onCommand:extension.codyhouseDocsUtilitiesFloat",
+		"onCommand:extension.codyhouseDocsUtilitiesMinHeight",
+		"onCommand:extension.codyhouseDocsUtilitiesMinWidth",
+		"onCommand:extension.codyhouseDocsUtilitiesMixBlendMode",
 		"onCommand:extension.codyhouseDocsUtilitiesObjectFit",
+		"onCommand:extension.codyhouseDocsUtilitiesOpacity",
+		"onCommand:extension.codyhouseDocsUtilitiesOrder",
+		"onCommand:extension.codyhouseDocsUtilitiesOverflow",
+		"onCommand:extension.codyhouseDocsUtilitiesPadding",
+		"onCommand:extension.codyhouseDocsUtilitiesPerspective",
 		"onCommand:extension.codyhouseDocsUtilitiesPointerEvents",
-		"onCommand:extension.codyhouseDocsUtilitiesUserSelect",
-		"onCommand:extension.codyhouseDocsUtilitiesTransform",
-		"onCommand:extension.codyhouseDocsUtilitiesVisibility",
-		"onCommand:extension.codyhouseDocsUtilitiesSpacing",
+		"onCommand:extension.codyhouseDocsUtilitiesPosition",
+		"onCommand:extension.codyhouseDocsUtilitiesTextAlign",
+		"onCommand:extension.codyhouseDocsUtilitiesTextDecoration",
 		"onCommand:extension.codyhouseDocsUtilitiesTextShadow",
+		"onCommand:extension.codyhouseDocsUtilitiesTextTransform",
+		"onCommand:extension.codyhouseDocsUtilitiesTransform",
+		"onCommand:extension.codyhouseDocsUtilitiesTypographyMisc",
+		"onCommand:extension.codyhouseDocsUtilitiesUserSelect",
+		"onCommand:extension.codyhouseDocsUtilitiesVerticalAlign",
+		"onCommand:extension.codyhouseDocsUtilitiesVerticalSpacing",
+		"onCommand:extension.codyhouseDocsUtilitiesVisibility",
+		"onCommand:extension.codyhouseDocsUtilitiesWhiteSpace",
+		"onCommand:extension.codyhouseDocsUtilitiesWidth",
+		"onCommand:extension.codyhouseDocsUtilitiesZIndex",
+		"onCommand:extension.codyhouseDocsJsUtil",
 		"onCommand:extension.codyhouseDocsVisibility",
-		"onCommand:extension.codyhouseDocsZIndex",
-		"onCommand:extension.codyhouseDocsJsUtil"
+		"onCommand:extension.codyhouseDocsZIndex"
 	],
 	"contributes": {
 		"commands": [
@@ -126,7 +126,7 @@
 				"title": "CodyHouse Docs: Reset"
 			},
 			{
-				"command": "extension.codyhouseDocsSharedStyle",
+				"command": "extension.codyhouseDocsSharedStyles",
 				"title": "CodyHouse Docs: Shared Styles"
 			},
 			{
@@ -142,196 +142,200 @@
 				"title": "CodyHouse Docs: Utilities"
 			},
 			{
-				"command": "extension.codyhouseDocsUtilitiesFlex",
-				"title": "CodyHouse Docs: Utilities > Flexbox"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesJustify",
-				"title": "CodyHouse Docs: Utilities > Justify Content"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesAlign",
+				"command": "extension.codyhouseDocsUtilitiesAlignItems",
 				"title": "CodyHouse Docs: Utilities > Align Items"
-			},
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesOrder",
-				"title": "CodyHouse Docs: Utilities > Order"
-			},
+				"command": "extension.codyhouseDocsUtilitiesAspectRatio",
+				"title": "CodyHouse Docs: Utilities > Aspect Ratio"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesDisplay",
-				"title": "CodyHouse Docs: Utilities > Display"
-			},
+				"command": "extension.codyhouseDocsUtilitiesBackdropFilter",
+				"title": "CodyHouse Docs: Utilities > Backdrop Filter"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesMargin",
-				"title": "CodyHouse Docs: Utilities > Margin"
-			},
+				"command": "extension.codyhouseDocsUtilitiesBackground",
+				"title": "CodyHouse Docs: Utilities > Background"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesPadding",
-				"title": "CodyHouse Docs: Utilities > Padding"
-			},
+				"command": "extension.codyhouseDocsUtilitiesBorder",
+				"title": "CodyHouse Docs: Utilities > Border"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesVAlignment",
-				"title": "CodyHouse Docs: Utilities > Vertical Align"
-			},
+				"command": "extension.codyhouseDocsUtilitiesBorderRadius",
+				"title": "CodyHouse Docs: Utilities > Border Radius"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesTypography",
-				"title": "CodyHouse Docs: Utilities > Typography"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesFontSize",
-				"title": "CodyHouse Docs: Utilities > Font size"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesFontWeight",
-				"title": "CodyHouse Docs: Utilities > Font weight"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesFontFamily",
-				"title": "CodyHouse Docs: Utilities > Font family"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesFontStyle",
-				"title": "CodyHouse Docs: Utilities > Font style"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesTextAlign",
-				"title": "CodyHouse Docs: Utilities > Text align"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesTextTransform",
-				"title": "CodyHouse Docs: Utilities > Text Transform"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesLetterSpacing",
-				"title": "CodyHouse Docs: Utilities > Letter Spacing"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesTextDecoration",
-				"title": "CodyHouse Docs: Utilities > Text Decoration"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesLineHeight",
-				"title": "CodyHouse Docs: Utilities > Line Height"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesVerticalSpacing",
-				"title": "CodyHouse Docs: Utilities > Vertical Spacing"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesTypographyMisc",
-				"title": "CodyHouse Docs: Utilities > Typography Misc"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesWhiteSpace",
-				"title": "CodyHouse Docs: Utilities > White Space"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesCursor",
-				"title": "CodyHouse Docs: Utilities > Cursor"
-			},
+				"command": "extension.codyhouseDocsUtilitiesBoxShadow",
+				"title": "CodyHouse Docs: Utilities > Box Shadow"
+      },
 			{
 				"command": "extension.codyhouseDocsUtilitiesColor",
 				"title": "CodyHouse Docs: Utilities > Color"
-			},
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesWidth",
-				"title": "CodyHouse Docs: Utilities > Width"
-			},
+				"command": "extension.codyhouseDocsUtilitiesCursor",
+				"title": "CodyHouse Docs: Utilities > Cursor"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesDisplay",
+				"title": "CodyHouse Docs: Utilities > Display"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesFlexbox",
+				"title": "CodyHouse Docs: Utilities > Flexbox"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesFloat",
+				"title": "CodyHouse Docs: Utilities > Float"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesFontFamily",
+				"title": "CodyHouse Docs: Utilities > Font Family"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesFontSize",
+				"title": "CodyHouse Docs: Utilities > Font Size"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesFontStyle",
+				"title": "CodyHouse Docs: Utilities > Font Style"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesFontWeight",
+				"title": "CodyHouse Docs: Utilities > Font Weight"
+      },
 			{
 				"command": "extension.codyhouseDocsUtilitiesHeight",
 				"title": "CodyHouse Docs: Utilities > Height"
-			},
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesJustifyContent",
+				"title": "CodyHouse Docs: Utilities > Justify Content"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesLetterSpacing",
+				"title": "CodyHouse Docs: Utilities > Letter Spacing"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesLineHeight",
+				"title": "CodyHouse Docs: Utilities > Line Height"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesMargin",
+				"title": "CodyHouse Docs: Utilities > Margin"
+      },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMaxHeight",
-				"title": "CodyHouse Docs: Utilities > Max-Height"
+				"title": "CodyHouse Docs: Utilities > Max Height"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMaxWidth",
-				"title": "CodyHouse Docs: Utilities > Max-Width"
+				"title": "CodyHouse Docs: Utilities > Max Width"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesMediaWrapper",
+				"title": "CodyHouse Docs: Utilities > Media Wrapper"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesMinHeight",
+				"title": "CodyHouse Docs: Utilities > Min Height"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMinWidth",
-				"title": "CodyHouse Docs: Utilities > Min-Width"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesMinHeight",
-				"title": "CodyHouse Docs: Utilities > Min-Height"
-			},
+				"title": "CodyHouse Docs: Utilities > Min Width"
+      },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMixBlendMode",
-				"title": "CodyHouse Docs: Utilities > Min-Blend-Mode"
-			},
+				"title": "CodyHouse Docs: Utilities > Mix Blend Mode"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesPosition",
-				"title": "CodyHouse Docs: Utilities > Position"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesZIndex",
-				"title": "CodyHouse Docs: Utilities > Z-Index"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesOverflow",
-				"title": "CodyHouse Docs: Utilities > Overflow"
-			},
+				"command": "extension.codyhouseDocsUtilitiesObjectFit",
+				"title": "CodyHouse Docs: Utilities > Object Fit"
+      },
 			{
 				"command": "extension.codyhouseDocsUtilitiesOpacity",
 				"title": "CodyHouse Docs: Utilities > Opacity"
       },
 			{
-				"command": "extension.codyhouseDocsUtilitiesBackdrop",
-				"title": "CodyHouse Docs: Utilities > Backdrop Filter"
-			},
+				"command": "extension.codyhouseDocsUtilitiesOrder",
+				"title": "CodyHouse Docs: Utilities > Order"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesBackground",
-				"title": "CodyHouse Docs: Utilities > Background"
-			},
+				"command": "extension.codyhouseDocsUtilitiesOverflow",
+				"title": "CodyHouse Docs: Utilities > Overflow"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesBorders",
-				"title": "CodyHouse Docs: Utilities > Borders"
-			},
+				"command": "extension.codyhouseDocsUtilitiesPadding",
+				"title": "CodyHouse Docs: Utilities > Padding"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesBorderRadius",
-				"title": "CodyHouse Docs: Utilities > Border Radius"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesBoxShadow",
-				"title": "CodyHouse Docs: Utilities > Box Shadow"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesMediaWrapper",
-				"title": "CodyHouse Docs: Utilities > Media Wrapper"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesFloat",
-				"title": "CodyHouse Docs: Utilities > Float"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesObjectFit",
-				"title": "CodyHouse Docs: Utilities > Object Fit"
-			},
+				"command": "extension.codyhouseDocsUtilitiesPerspective",
+				"title": "CodyHouse Docs: Utilities > Perspective"
+      },
 			{
 				"command": "extension.codyhouseDocsUtilitiesPointerEvents",
 				"title": "CodyHouse Docs: Utilities > Pointer Events"
-			},
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesUserSelect",
-				"title": "CodyHouse Docs: Utilities > User Select"
-			},
+				"command": "extension.codyhouseDocsUtilitiesPosition",
+				"title": "CodyHouse Docs: Utilities > Position"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesTransform",
-				"title": "CodyHouse Docs: Utilities > Transform"
-			},
+				"command": "extension.codyhouseDocsUtilitiesTextAlign",
+				"title": "CodyHouse Docs: Utilities > Text Align"
+      },
 			{
-				"command": "extension.codyhouseDocsUtilitiesVisibility",
-				"title": "CodyHouse Docs: Utilities > Visibility"
-			},
-			{
-				"command": "extension.codyhouseDocsUtilitiesSpacing",
-				"title": "CodyHouse Docs: Utilities > Spacing"
-			},
+				"command": "extension.codyhouseDocsUtilitiesTextDecoration",
+				"title": "CodyHouse Docs: Utilities > Text Decoration"
+      },
 			{
 				"command": "extension.codyhouseDocsUtilitiesTextShadow",
 				"title": "CodyHouse Docs: Utilities > Text Shadow"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesTextTransform",
+				"title": "CodyHouse Docs: Utilities > Text Transform"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesTransform",
+				"title": "CodyHouse Docs: Utilities > Transform"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesTypographyMisc",
+				"title": "CodyHouse Docs: Utilities > Misc (Typography)"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesUserSelect",
+				"title": "CodyHouse Docs: Utilities > User Select"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesVerticalAlign",
+				"title": "CodyHouse Docs: Utilities > Vertical Align"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesVerticalSpacing",
+				"title": "CodyHouse Docs: Utilities > Vertical Spacing"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesVisibility",
+				"title": "CodyHouse Docs: Utilities > Visibility"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesWhiteSpace",
+				"title": "CodyHouse Docs: Utilities > White Space"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesWidth",
+				"title": "CodyHouse Docs: Utilities > Width"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesZIndex",
+				"title": "CodyHouse Docs: Utilities > Z-Index"
+      },
+      {
+				"command": "extension.codyhouseDocsJsUtil",
+				"title": "CodyHouse Docs: Utilities (JS)"
 			},
 			{
 				"command": "extension.codyhouseDocsVisibility",
@@ -340,10 +344,6 @@
 			{
 				"command": "extension.codyhouseDocsZIndex",
 				"title": "CodyHouse Docs: Z-Index"
-			},
-			{
-				"command": "extension.codyhouseDocsJsUtil",
-				"title": "CodyHouse Docs: Utilities (JS)"
 			}
 		]
 	},
