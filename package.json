@@ -62,6 +62,8 @@
 		"onCommand:extension.codyhouseDocsUtilitiesPerspective",
 		"onCommand:extension.codyhouseDocsUtilitiesPointerEvents",
 		"onCommand:extension.codyhouseDocsUtilitiesPosition",
+		"onCommand:extension.codyhouseDocsUtilitiesScrollBehavior",
+		"onCommand:extension.codyhouseDocsUtilitiesSVG",
 		"onCommand:extension.codyhouseDocsUtilitiesTextAlign",
 		"onCommand:extension.codyhouseDocsUtilitiesTextDecoration",
 		"onCommand:extension.codyhouseDocsUtilitiesTextShadow",
@@ -280,6 +282,14 @@
 			{
 				"command": "extension.codyhouseDocsUtilitiesPosition",
 				"title": "CodyHouse Docs: Utilities > Position"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesScrollBehavior",
+				"title": "CodyHouse Docs: Utilities > Scroll Behavior"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesSVG",
+				"title": "CodyHouse Docs: Utilities > SVG"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesTextAlign",
