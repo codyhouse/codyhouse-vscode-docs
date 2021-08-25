@@ -259,10 +259,10 @@ function activate(context) {
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesScrollBehavior);
 
-  let codyhouseDocsUtilitiesSvg = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesSvg', function () {
+	let codyhouseDocsUtilitiesSVG = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesSVG', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-svg'));
 	});
-  context.subscriptions.push(codyhouseDocsUtilitiesSvg);
+  context.subscriptions.push(codyhouseDocsUtilitiesSVG);
 
   let codyhouseDocsUtilitiesTextAlign = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesTextAlign', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-text-align'));

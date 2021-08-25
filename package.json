@@ -62,7 +62,7 @@
 		"onCommand:extension.codyhouseDocsUtilitiesPointerEvents",
 		"onCommand:extension.codyhouseDocsUtilitiesPosition",
 		"onCommand:extension.codyhouseDocsUtilitiesScrollBehavior",
-		"onCommand:extension.codyhouseDocsUtilitiesSvg",
+		"onCommand:extension.codyhouseDocsUtilitiesSVG",
 		"onCommand:extension.codyhouseDocsUtilitiesTextAlign",
 		"onCommand:extension.codyhouseDocsUtilitiesTextDecoration",
 		"onCommand:extension.codyhouseDocsUtilitiesTextShadow",
@@ -283,7 +283,7 @@
 				"title": "CodyHouse Docs: Utilities > Scroll Behavior"
       },
 			{
-				"command": "extension.codyhouseDocsUtilitiesSvg",
+				"command": "extension.codyhouseDocsUtilitiesSVG",
 				"title": "CodyHouse Docs: Utilities > SVG"
       },
 			{
