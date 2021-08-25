@@ -199,11 +199,6 @@ function activate(context) {
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesMaxWidth);
 
-  let codyhouseDocsUtilitiesMediaWrapper = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesMediaWrapper', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-media-wrapper'));
-	});
-  context.subscriptions.push(codyhouseDocsUtilitiesMediaWrapper);
-
   let codyhouseDocsUtilitiesMinHeight = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesMinHeight', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-min-height'));
 	});
@@ -258,6 +253,16 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-position'));
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesPosition);
+
+  let codyhouseDocsUtilitiesScrollBehavior = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesScrollBehavior', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-scroll-behavior'));
+	});
+  context.subscriptions.push(codyhouseDocsUtilitiesScrollBehavior);
+
+  let codyhouseDocsUtilitiesSvg = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesSvg', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-svg'));
+	});
+  context.subscriptions.push(codyhouseDocsUtilitiesSvg);
 
   let codyhouseDocsUtilitiesTextAlign = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesTextAlign', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-text-align'));

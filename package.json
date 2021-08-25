@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyHouse Docs",
 	"description": "CodyHouse Framework Docs",
-	"version": "0.3.6",
+	"version": "0.3.7",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -50,7 +50,6 @@
 		"onCommand:extension.codyhouseDocsUtilitiesMargin",
 		"onCommand:extension.codyhouseDocsUtilitiesMaxHeight",
     "onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
-		"onCommand:extension.codyhouseDocsUtilitiesMediaWrapper",
 		"onCommand:extension.codyhouseDocsUtilitiesMinHeight",
 		"onCommand:extension.codyhouseDocsUtilitiesMinWidth",
 		"onCommand:extension.codyhouseDocsUtilitiesMixBlendMode",
@@ -62,6 +61,8 @@
 		"onCommand:extension.codyhouseDocsUtilitiesPerspective",
 		"onCommand:extension.codyhouseDocsUtilitiesPointerEvents",
 		"onCommand:extension.codyhouseDocsUtilitiesPosition",
+		"onCommand:extension.codyhouseDocsUtilitiesScrollBehavior",
+		"onCommand:extension.codyhouseDocsUtilitiesSvg",
 		"onCommand:extension.codyhouseDocsUtilitiesTextAlign",
 		"onCommand:extension.codyhouseDocsUtilitiesTextDecoration",
 		"onCommand:extension.codyhouseDocsUtilitiesTextShadow",
@@ -139,7 +140,7 @@
 			},
 			{
 				"command": "extension.codyhouseDocsUtilities",
-				"title": "CodyHouse Docs: Utilities"
+				"title": "CodyHouse Docs: Utilities (CSS)"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesAlignItems",
@@ -234,10 +235,6 @@
 				"title": "CodyHouse Docs: Utilities > Max Width"
       },
 			{
-				"command": "extension.codyhouseDocsUtilitiesMediaWrapper",
-				"title": "CodyHouse Docs: Utilities > Media Wrapper"
-      },
-			{
 				"command": "extension.codyhouseDocsUtilitiesMinHeight",
 				"title": "CodyHouse Docs: Utilities > Min Height"
       },
@@ -282,6 +279,14 @@
 				"title": "CodyHouse Docs: Utilities > Position"
       },
 			{
+				"command": "extension.codyhouseDocsUtilitiesScrollBehavior",
+				"title": "CodyHouse Docs: Utilities > Scroll Behavior"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesSvg",
+				"title": "CodyHouse Docs: Utilities > SVG"
+      },
+			{
 				"command": "extension.codyhouseDocsUtilitiesTextAlign",
 				"title": "CodyHouse Docs: Utilities > Text Align"
       },
@@ -315,7 +320,7 @@
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesVerticalSpacing",
-				"title": "CodyHouse Docs: Utilities > Vertical Spacing"
+				"title": "CodyHouse Docs: Utilities > Vertical Spacing (.text-component)"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesVisibility",
