@@ -9,11 +9,6 @@ const vscode = require('vscode');
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-	let codyhouseDocsGetStarted = vscode.commands.registerCommand('extension.codyhouseDocsGetStarted', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/get-started'));
-	});
-  context.subscriptions.push(codyhouseDocsGetStarted);
-  
 	let codyhouseDocsFramework = vscode.commands.registerCommand('extension.codyhouseDocsFramework', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework'));
 	});
@@ -54,20 +49,10 @@ function activate(context) {
 	});
 	context.subscriptions.push(codyhouseDocsIcons);
   
-  let codyhouseDocsMixins = vscode.commands.registerCommand('extension.codyhouseDocsMixins', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/mixins'));
-	});
-	context.subscriptions.push(codyhouseDocsMixins);
-  
   let codyhouseDocsReset = vscode.commands.registerCommand('extension.codyhouseDocsReset', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/reset'));
 	});
 	context.subscriptions.push(codyhouseDocsReset);
-  
-  let codyhouseDocsSharedStyles = vscode.commands.registerCommand('extension.codyhouseDocsSharedStyles', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/shared-styles'));
-	});
-	context.subscriptions.push(codyhouseDocsSharedStyles);
   
   let codyhouseDocsSpacing = vscode.commands.registerCommand('extension.codyhouseDocsSpacing', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/spacing'));
@@ -88,6 +73,11 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-align-items'));
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesAlignItems);
+
+  let codyhouseDocsUtilitiesAlignContent = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesAlignContent', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-align-content'));
+	});
+  context.subscriptions.push(codyhouseDocsUtilitiesAlignContent);
 
   let codyhouseDocsUtilitiesAspectRatio = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesAspectRatio', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-aspect-ratio'));
@@ -123,6 +113,11 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-color'));
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesColor);
+
+  let codyhouseDocsUtilitiesColumnCount = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesColumnCount', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-column-count'));
+	});
+  context.subscriptions.push(codyhouseDocsUtilitiesColumnCount);
 
   let codyhouseDocsUtilitiesCursor = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesCursor', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-cursor'));
@@ -164,6 +159,11 @@ function activate(context) {
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesFontWeight);
 
+  let codyhouseDocsUtilitiesGap = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesGap', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-gap'));
+	});
+  context.subscriptions.push(codyhouseDocsUtilitiesGap);
+
   let codyhouseDocsUtilitiesHeight = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesHeight', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-height'));
 	});
@@ -179,10 +179,20 @@ function activate(context) {
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesLetterSpacing);
 
+  let codyhouseDocsUtilitiesLineClamp = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesLineClamp', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-line-clamp'));
+	});
+  context.subscriptions.push(codyhouseDocsUtilitiesLineClamp);
+
   let codyhouseDocsUtilitiesLineHeight = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesLineHeight', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-line-height'));
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesLineHeight);
+
+  let codyhouseDocsUtilitiesListStyle = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesListStyle', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-list-style'));
+	});
+  context.subscriptions.push(codyhouseDocsUtilitiesListStyle);
 
   let codyhouseDocsUtilitiesMargin = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesMargin', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-margin'));
@@ -274,6 +284,11 @@ function activate(context) {
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesTextDecoration);
 
+  let codyhouseDocsUtilitiesTextIndent = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesTextIndent', function () {
+		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-text-indent'));
+	});
+  context.subscriptions.push(codyhouseDocsUtilitiesTextIndent);
+
   let codyhouseDocsUtilitiesTextShadow = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesTextShadow', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-text-shadow'));
 	});
@@ -304,11 +319,6 @@ function activate(context) {
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesVerticalAlign);
 
-  let codyhouseDocsUtilitiesVerticalSpacing = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesVerticalSpacing', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-vertical-spacing-text'));
-	});
-  context.subscriptions.push(codyhouseDocsUtilitiesVerticalSpacing);
-
   let codyhouseDocsUtilitiesVisibility = vscode.commands.registerCommand('extension.codyhouseDocsUtilitiesVisibility', function () {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-visibility'));
 	});
@@ -328,21 +338,6 @@ function activate(context) {
 		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/util-z-index'));
 	});
   context.subscriptions.push(codyhouseDocsUtilitiesZIndex);
-  
-  let codyhouseDocsJsUtil = vscode.commands.registerCommand('extension.codyhouseDocsJsUtil', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/js-utilities'));
-	});
-	context.subscriptions.push(codyhouseDocsJsUtil);
-  
-  let codyhouseDocsVisibility = vscode.commands.registerCommand('extension.codyhouseDocsVisibility', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/visibility'));
-	});
-	context.subscriptions.push(codyhouseDocsVisibility);
-  
-  let codyhouseDocsZIndex = vscode.commands.registerCommand('extension.codyhouseDocsZIndex', function () {
-		vscode.commands.executeCommand('vscode.open', vscode.Uri.parse('https://codyhouse.co/ds/docs/framework/z-index'));
-	});
-	context.subscriptions.push(codyhouseDocsZIndex);
 }
 exports.activate = activate;
 

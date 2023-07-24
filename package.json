@@ -1,8 +1,8 @@
 {
 	"name": "codyhouse-docs",
-	"displayName": "CodyHouse Docs",
-	"description": "CodyHouse Framework Docs",
-	"version": "0.3.7",
+	"displayName": "CodyFrame Docs",
+	"description": "CodyFrame docs navigation",
+	"version": "0.4.0",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -12,7 +12,6 @@
 	],
 	"main": "./extension.js",
 	"activationEvents": [
-		"onCommand:extension.codyhouseDocsGetStarted",
 		"onCommand:extension.codyhouseDocsFramework",
 		"onCommand:extension.codyhouseDocsAccessibility",
 		"onCommand:extension.codyhouseDocsBreakpoints",
@@ -21,13 +20,12 @@
 		"onCommand:extension.codyhouseDocsForms",
 		"onCommand:extension.codyhouseDocsGrid",
 		"onCommand:extension.codyhouseDocsIcons",
-		"onCommand:extension.codyhouseDocsMixins",
 		"onCommand:extension.codyhouseDocsReset",
-		"onCommand:extension.codyhouseDocsSharedStyles",
 		"onCommand:extension.codyhouseDocsSpacing",
 		"onCommand:extension.codyhouseDocsTypography",
 		"onCommand:extension.codyhouseDocsUtilities",
 		"onCommand:extension.codyhouseDocsUtilitiesAlignItems",
+		"onCommand:extension.codyhouseDocsUtilitiesAlignContent",
     "onCommand:extension.codyhouseDocsUtilitiesAspectRatio",
     "onCommand:extension.codyhouseDocsUtilitiesBackdropFilter",
     "onCommand:extension.codyhouseDocsUtilitiesBackground",
@@ -35,6 +33,7 @@
     "onCommand:extension.codyhouseDocsUtilitiesBorderRadius",
     "onCommand:extension.codyhouseDocsUtilitiesBoxShadow",
     "onCommand:extension.codyhouseDocsUtilitiesColor",
+    "onCommand:extension.codyhouseDocsUtilitiesColumnCount",
 		"onCommand:extension.codyhouseDocsUtilitiesCursor",
 		"onCommand:extension.codyhouseDocsUtilitiesDisplay",
     "onCommand:extension.codyhouseDocsUtilitiesFlexbox",
@@ -43,10 +42,13 @@
 		"onCommand:extension.codyhouseDocsUtilitiesFontSize",
 		"onCommand:extension.codyhouseDocsUtilitiesFontStyle",
 		"onCommand:extension.codyhouseDocsUtilitiesFontWeight",
+		"onCommand:extension.codyhouseDocsUtilitiesGap",
 		"onCommand:extension.codyhouseDocsUtilitiesHeight",
 		"onCommand:extension.codyhouseDocsUtilitiesJustifyContent",
 		"onCommand:extension.codyhouseDocsUtilitiesLetterSpacing",
+		"onCommand:extension.codyhouseDocsUtilitiesLineClamp",
 		"onCommand:extension.codyhouseDocsUtilitiesLineHeight",
+		"onCommand:extension.codyhouseDocsUtilitiesListStyle",
 		"onCommand:extension.codyhouseDocsUtilitiesMargin",
 		"onCommand:extension.codyhouseDocsUtilitiesMaxHeight",
     "onCommand:extension.codyhouseDocsUtilitiesMaxWidth",
@@ -65,301 +67,294 @@
 		"onCommand:extension.codyhouseDocsUtilitiesSVG",
 		"onCommand:extension.codyhouseDocsUtilitiesTextAlign",
 		"onCommand:extension.codyhouseDocsUtilitiesTextDecoration",
+		"onCommand:extension.codyhouseDocsUtilitiesTextIndent",
 		"onCommand:extension.codyhouseDocsUtilitiesTextShadow",
 		"onCommand:extension.codyhouseDocsUtilitiesTextTransform",
 		"onCommand:extension.codyhouseDocsUtilitiesTransform",
 		"onCommand:extension.codyhouseDocsUtilitiesTypographyMisc",
 		"onCommand:extension.codyhouseDocsUtilitiesUserSelect",
 		"onCommand:extension.codyhouseDocsUtilitiesVerticalAlign",
-		"onCommand:extension.codyhouseDocsUtilitiesVerticalSpacing",
 		"onCommand:extension.codyhouseDocsUtilitiesVisibility",
 		"onCommand:extension.codyhouseDocsUtilitiesWhiteSpace",
 		"onCommand:extension.codyhouseDocsUtilitiesWidth",
-		"onCommand:extension.codyhouseDocsUtilitiesZIndex",
-		"onCommand:extension.codyhouseDocsJsUtil",
-		"onCommand:extension.codyhouseDocsVisibility",
-		"onCommand:extension.codyhouseDocsZIndex"
+		"onCommand:extension.codyhouseDocsUtilitiesZIndex"
 	],
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.codyhouseDocsGetStarted",
-				"title": "CodyHouse Docs: Get Started"
-			},
-			{
 				"command": "extension.codyhouseDocsFramework",
-				"title": "CodyHouse Docs: Framework"
+				"title": "CodyFrame Docs: Get Started"
 			},
 			{
 				"command": "extension.codyhouseDocsAccessibility",
-				"title": "CodyHouse Docs: Accessibility"
+				"title": "CodyFrame Docs: Accessibility"
 			},
 			{
 				"command": "extension.codyhouseDocsBreakpoints",
-				"title": "CodyHouse Docs: Breakpoints"
+				"title": "CodyFrame Docs: Breakpoints"
 			},
 			{
 				"command": "extension.codyhouseDocsButtons",
-				"title": "CodyHouse Docs: Buttons"
+				"title": "CodyFrame Docs: Buttons"
 			},
 			{
 				"command": "extension.codyhouseDocsColors",
-				"title": "CodyHouse Docs: Colors"
+				"title": "CodyFrame Docs: Colors"
 			},
 			{
 				"command": "extension.codyhouseDocsForms",
-				"title": "CodyHouse Docs: Forms"
+				"title": "CodyFrame Docs: Forms"
 			},
 			{
 				"command": "extension.codyhouseDocsGrid",
-				"title": "CodyHouse Docs: Grid and Layout"
+				"title": "CodyFrame Docs: Grid and Layout"
 			},
 			{
 				"command": "extension.codyhouseDocsIcons",
-				"title": "CodyHouse Docs: Icons"
-			},
-			{
-				"command": "extension.codyhouseDocsMixins",
-				"title": "CodyHouse Docs: Mixins"
+				"title": "CodyFrame Docs: Icons"
 			},
 			{
 				"command": "extension.codyhouseDocsReset",
-				"title": "CodyHouse Docs: Reset"
-			},
-			{
-				"command": "extension.codyhouseDocsSharedStyles",
-				"title": "CodyHouse Docs: Shared Styles"
+				"title": "CodyFrame Docs: Reset"
 			},
 			{
 				"command": "extension.codyhouseDocsSpacing",
-				"title": "CodyHouse Docs: Spacing"
+				"title": "CodyFrame Docs: Spacing"
 			},
 			{
 				"command": "extension.codyhouseDocsTypography",
-				"title": "CodyHouse Docs: Typography"
+				"title": "CodyFrame Docs: Typography"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilities",
-				"title": "CodyHouse Docs: Utilities (CSS)"
+				"title": "CodyFrame Docs: CSS Utilities"
 			},
 			{
 				"command": "extension.codyhouseDocsUtilitiesAlignItems",
-				"title": "CodyHouse Docs: Utilities > Align Items"
+				"title": "CodyFrame Docs: CSS Utilities > Align Items"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesAlignContent",
+				"title": "CodyFrame Docs: CSS Utilities > Align Content"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesAspectRatio",
-				"title": "CodyHouse Docs: Utilities > Aspect Ratio"
+				"title": "CodyFrame Docs: CSS Utilities > Aspect Ratio"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesBackdropFilter",
-				"title": "CodyHouse Docs: Utilities > Backdrop Filter"
+				"title": "CodyFrame Docs: CSS Utilities > Backdrop Filter"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesBackground",
-				"title": "CodyHouse Docs: Utilities > Background"
+				"title": "CodyFrame Docs: CSS Utilities > Background"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesBorder",
-				"title": "CodyHouse Docs: Utilities > Border"
+				"title": "CodyFrame Docs: CSS Utilities > Border"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesBorderRadius",
-				"title": "CodyHouse Docs: Utilities > Border Radius"
+				"title": "CodyFrame Docs: CSS Utilities > Border Radius"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesBoxShadow",
-				"title": "CodyHouse Docs: Utilities > Box Shadow"
+				"title": "CodyFrame Docs: CSS Utilities > Box Shadow"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesColor",
-				"title": "CodyHouse Docs: Utilities > Color"
+				"title": "CodyFrame Docs: CSS Utilities > Color"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesColumnCount",
+				"title": "CodyFrame Docs: CSS Utilities > Column Count"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesCursor",
-				"title": "CodyHouse Docs: Utilities > Cursor"
+				"title": "CodyFrame Docs: CSS Utilities > Cursor"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesDisplay",
-				"title": "CodyHouse Docs: Utilities > Display"
+				"title": "CodyFrame Docs: CSS Utilities > Display"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesFlexbox",
-				"title": "CodyHouse Docs: Utilities > Flexbox"
+				"title": "CodyFrame Docs: CSS Utilities > Flexbox"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesFloat",
-				"title": "CodyHouse Docs: Utilities > Float"
+				"title": "CodyFrame Docs: CSS Utilities > Float"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesFontFamily",
-				"title": "CodyHouse Docs: Utilities > Font Family"
+				"title": "CodyFrame Docs: CSS Utilities > Font Family"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesFontSize",
-				"title": "CodyHouse Docs: Utilities > Font Size"
+				"title": "CodyFrame Docs: CSS Utilities > Font Size"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesFontStyle",
-				"title": "CodyHouse Docs: Utilities > Font Style"
+				"title": "CodyFrame Docs: CSS Utilities > Font Style"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesFontWeight",
-				"title": "CodyHouse Docs: Utilities > Font Weight"
+				"title": "CodyFrame Docs: CSS Utilities > Font Weight"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesGap",
+				"title": "CodyFrame Docs: CSS Utilities > Gap"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesHeight",
-				"title": "CodyHouse Docs: Utilities > Height"
+				"title": "CodyFrame Docs: CSS Utilities > Height"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesJustifyContent",
-				"title": "CodyHouse Docs: Utilities > Justify Content"
+				"title": "CodyFrame Docs: CSS Utilities > Justify Content"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesLetterSpacing",
-				"title": "CodyHouse Docs: Utilities > Letter Spacing"
+				"title": "CodyFrame Docs: CSS Utilities > Letter Spacing"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesLineClamp",
+				"title": "CodyFrame Docs: CSS Utilities > Line Clamp"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesLineHeight",
-				"title": "CodyHouse Docs: Utilities > Line Height"
+				"title": "CodyFrame Docs: CSS Utilities > Line Height"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesListStyle",
+				"title": "CodyFrame Docs: CSS Utilities > List Style"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMargin",
-				"title": "CodyHouse Docs: Utilities > Margin"
+				"title": "CodyFrame Docs: CSS Utilities > Margin"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMaxHeight",
-				"title": "CodyHouse Docs: Utilities > Max Height"
+				"title": "CodyFrame Docs: CSS Utilities > Max Height"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMaxWidth",
-				"title": "CodyHouse Docs: Utilities > Max Width"
+				"title": "CodyFrame Docs: CSS Utilities > Max Width"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMinHeight",
-				"title": "CodyHouse Docs: Utilities > Min Height"
+				"title": "CodyFrame Docs: CSS Utilities > Min Height"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMinWidth",
-				"title": "CodyHouse Docs: Utilities > Min Width"
+				"title": "CodyFrame Docs: CSS Utilities > Min Width"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesMixBlendMode",
-				"title": "CodyHouse Docs: Utilities > Mix Blend Mode"
+				"title": "CodyFrame Docs: CSS Utilities > Mix Blend Mode"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesObjectFit",
-				"title": "CodyHouse Docs: Utilities > Object Fit"
+				"title": "CodyFrame Docs: CSS Utilities > Object Fit"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesOpacity",
-				"title": "CodyHouse Docs: Utilities > Opacity"
+				"title": "CodyFrame Docs: CSS Utilities > Opacity"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesOrder",
-				"title": "CodyHouse Docs: Utilities > Order"
+				"title": "CodyFrame Docs: CSS Utilities > Order"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesOverflow",
-				"title": "CodyHouse Docs: Utilities > Overflow"
+				"title": "CodyFrame Docs: CSS Utilities > Overflow"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesPadding",
-				"title": "CodyHouse Docs: Utilities > Padding"
+				"title": "CodyFrame Docs: CSS Utilities > Padding"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesPerspective",
-				"title": "CodyHouse Docs: Utilities > Perspective"
+				"title": "CodyFrame Docs: CSS Utilities > Perspective"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesPointerEvents",
-				"title": "CodyHouse Docs: Utilities > Pointer Events"
+				"title": "CodyFrame Docs: CSS Utilities > Pointer Events"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesPosition",
-				"title": "CodyHouse Docs: Utilities > Position"
+				"title": "CodyFrame Docs: CSS Utilities > Position"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesScrollBehavior",
-				"title": "CodyHouse Docs: Utilities > Scroll Behavior"
+				"title": "CodyFrame Docs: CSS Utilities > Scroll Behavior"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesSVG",
-				"title": "CodyHouse Docs: Utilities > SVG"
+				"title": "CodyFrame Docs: CSS Utilities > SVG"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesTextAlign",
-				"title": "CodyHouse Docs: Utilities > Text Align"
+				"title": "CodyFrame Docs: CSS Utilities > Text Align"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesTextDecoration",
-				"title": "CodyHouse Docs: Utilities > Text Decoration"
+				"title": "CodyFrame Docs: CSS Utilities > Text Decoration"
+      },
+			{
+				"command": "extension.codyhouseDocsUtilitiesTextIndent",
+				"title": "CodyFrame Docs: CSS Utilities > Text Indent"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesTextShadow",
-				"title": "CodyHouse Docs: Utilities > Text Shadow"
+				"title": "CodyFrame Docs: CSS Utilities > Text Shadow"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesTextTransform",
-				"title": "CodyHouse Docs: Utilities > Text Transform"
+				"title": "CodyFrame Docs: CSS Utilities > Text Transform"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesTransform",
-				"title": "CodyHouse Docs: Utilities > Transform"
+				"title": "CodyFrame Docs: CSS Utilities > Transform"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesTypographyMisc",
-				"title": "CodyHouse Docs: Utilities > Misc (Typography)"
+				"title": "CodyFrame Docs: CSS Utilities > Typography (Misc)"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesUserSelect",
-				"title": "CodyHouse Docs: Utilities > User Select"
+				"title": "CodyFrame Docs: CSS Utilities > User Select"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesVerticalAlign",
-				"title": "CodyHouse Docs: Utilities > Vertical Align"
-      },
-			{
-				"command": "extension.codyhouseDocsUtilitiesVerticalSpacing",
-				"title": "CodyHouse Docs: Utilities > Vertical Spacing (.text-component)"
+				"title": "CodyFrame Docs: CSS Utilities > Vertical Align"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesVisibility",
-				"title": "CodyHouse Docs: Utilities > Visibility"
+				"title": "CodyFrame Docs: CSS Utilities > Visibility"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesWhiteSpace",
-				"title": "CodyHouse Docs: Utilities > White Space"
+				"title": "CodyFrame Docs: CSS Utilities > White Space"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesWidth",
-				"title": "CodyHouse Docs: Utilities > Width"
+				"title": "CodyFrame Docs: CSS Utilities > Width"
       },
 			{
 				"command": "extension.codyhouseDocsUtilitiesZIndex",
-				"title": "CodyHouse Docs: Utilities > Z-Index"
-      },
-      {
-				"command": "extension.codyhouseDocsJsUtil",
-				"title": "CodyHouse Docs: Utilities (JS)"
-			},
-			{
-				"command": "extension.codyhouseDocsVisibility",
-				"title": "CodyHouse Docs: Visibility"
-			},
-			{
-				"command": "extension.codyhouseDocsZIndex",
-				"title": "CodyHouse Docs: Z-Index"
-			}
+				"title": "CodyFrame Docs: CSS Utilities > Z-Index"
+      }
 		]
 	},
 	"icon": "logo.png",
   "keywords": [
     "codyhouse",
+    "codyframe",
 		"docs",
 		"documentation",
     "css",
     "html",
-    "js",
     "vscode",
     "vscode-extension"
   ],
