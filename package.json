@@ -2,7 +2,7 @@
 	"name": "codyhouse-docs",
 	"displayName": "CodyFrame Docs",
 	"description": "CodyFrame docs navigation",
-	"version": "0.4.1",
+	"version": "0.4.2",
 	"publisher": "CodyHouse",
 	"engines": {
 		"vscode": "^1.35.0"
